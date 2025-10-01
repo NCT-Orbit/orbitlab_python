@@ -1,0 +1,1050 @@
+
+<!doctype html>
+<html lang="tr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../tutorials/">
+      
+      
+        <link rel="next" href="../reference/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>How-To Guides - Orbit Python SDK</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#orbitlab-python-library" class="md-skip">
+          Ana içeriğe geç
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Başlık">
+    <a href=".." title="Orbit Python SDK" class="md-header__button md-logo" aria-label="Orbit Python SDK" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Orbit Python SDK
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How-To Guides
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Ara" placeholder="Ara" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Ara">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Temizle" aria-label="Temizle" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Arama başlatılıyor
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigasyon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Orbit Python SDK" class="md-nav__button md-logo" aria-label="Orbit Python SDK" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Orbit Python SDK
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tutorials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    How-To Guides
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    How-To Guides
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yazlm-gereksinimleri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yazılım gereksinimleri
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kurulum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kurulum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kullanm-ornegi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kullanım örneği
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpm-ve-enkoderleri-anlamak" class="md-nav__link">
+    <span class="md-ellipsis">
+      RPM ve Enkoderleri Anlamak.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diferansiyel-surus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diferansiyel sürüş
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robot-hzn-okumak" class="md-nav__link">
+    <span class="md-ellipsis">
+      Robot hızını okumak
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diferansiyel-suruculu-robotta-dogrusal-ve-acsal-hzn-motor-rpm-degerine-donusturulmesi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diferansiyel Sürücülü Robotta Doğrusal ve Açısal Hızın Motor RPM Değerine Dönüştürülmesi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sol-ve-sag-motor-rpm-degerlerinden-dogrusal-ve-acsal-hz-hesaplama" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sol ve Sağ Motor RPM Değerlerinden Doğrusal ve Açısal Hız Hesaplama
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../explanation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Explanation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yazlm-gereksinimleri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yazılım gereksinimleri
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kurulum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kurulum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kullanm-ornegi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kullanım örneği
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpm-ve-enkoderleri-anlamak" class="md-nav__link">
+    <span class="md-ellipsis">
+      RPM ve Enkoderleri Anlamak.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diferansiyel-surus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diferansiyel sürüş
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robot-hzn-okumak" class="md-nav__link">
+    <span class="md-ellipsis">
+      Robot hızını okumak
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diferansiyel-suruculu-robotta-dogrusal-ve-acsal-hzn-motor-rpm-degerine-donusturulmesi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diferansiyel Sürücülü Robotta Doğrusal ve Açısal Hızın Motor RPM Değerine Dönüştürülmesi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sol-ve-sag-motor-rpm-degerlerinden-dogrusal-ve-acsal-hz-hesaplama" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sol ve Sağ Motor RPM Değerlerinden Doğrusal ve Açısal Hız Hesaplama
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="orbitlab-python-library">Orbitlab Python library</h1>
+<p>Bu yazılım, Orbit robotunu yerel ağ üzerinden Python ile kontrol etmek için geliştirilmiştir. Temel amacı, öğrencilerin fiziksel bir robotla etkileşim kurarak robotik programlama konusunda uygulamalı deneyim kazanmalarını sağlamaktır. Kütüphane, Orbit platformunun temel işlevlerini sunar: motor kontrolü, sensör verilerine erişim, robot yüz ifadesinin değiştirilmesi, ses çalma, LDR (ışığa duyarlı direnç) ayarı ve daha fazlası. Bu sayede kapsamlı ve pratik bir öğrenme deneyimi sunar. Aynı zamanda da simulasyon özelliği sahiptir.</p>
+<h2 id="yazlm-gereksinimleri">Yazılım gereksinimleri</h2>
+<ol>
+<li>Orbit robot: Daha fazla bilgi için <a href="https://orbitrobots.com/">Orbitrobots</a> ziyaret edin</li>
+<li>Python &gt;= 3.0: Python'u indirin <a href="https://www.python.org/downloads/">Python</a></li>
+</ol>
+<h2 id="kurulum">Kurulum</h2>
+<pre><code>pip install orbitlab
+</code></pre>
+<h2 id="kullanm-ornegi">Kullanım örneği</h2>
+<pre><code class="language-python">import time
+from orbitlab import OrbitDriver
+
+orbit = OrbitDriver(&quot;&lt;orbit_ip_address&gt;&quot;)
+
+orbit.set_rpm([10, -10])
+time.sleep(5)
+orbit.stop()
+</code></pre>
+<ol>
+<li>
+<p><code>import time</code></p>
+</li>
+<li>
+<p>Programın belirli bir süre duraklamasını sağlamak için Python’un yerleşik time modülünü içe aktarır.</p>
+</li>
+<li>
+<p><code>from orbitlab import OrbitDriver</code></p>
+</li>
+<li>
+<p>Orbit robotunu kontrol etmek için kullanılan özel OrbitDriver sınıfını içe aktarır.</p>
+</li>
+<li>
+<p><code>orbit = OrbitDriver("&lt;orbit_ip_address&gt;")</code></p>
+</li>
+<li>
+<p>Orbit robotuna yerel ağ üzerinden bağlantı kurar.</p>
+</li>
+<li>
+<p><code>"&lt;orbit_ip_address&gt;"</code> kısmı robotun gerçek IP adresiyle (örneğin "192.168.1.42") değiştirilmelidir.</p>
+</li>
+<li>
+<p><code>orbit.set_rpm([10, -10])</code></p>
+</li>
+<li>
+<p>Motorlara RPM komutu gönderir:</p>
+<ul>
+<li>
+<p>Sol tekerlek: 10 RPM (ileri)</p>
+</li>
+<li>
+<p>Sağ tekerlek: -10 RPM</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Bu durumda, sağ motor fiziksel olarak ters bağlandığı için -10 RPM komutu da onu ileri yönde hareket ettirir.</p>
+</li>
+<li>
+<p>Sonuç olarak, her iki tekerlek de ileri aynı hızda hareket eder ve robot düz bir şekilde ileri gider (dönme yapmaz).</p>
+</li>
+<li>
+<p><code>time.sleep(5)</code></p>
+</li>
+<li>
+<p>Robotun 5 saniye boyunca hareket etmeye devam etmesini sağlar.</p>
+</li>
+<li>
+<p><code>orbit.stop()</code></p>
+</li>
+<li>
+<p>Her iki motoru da durdurarak robotu durdurur.</p>
+</li>
+</ol>
+<h2 id="rpm-ve-enkoderleri-anlamak">RPM ve Enkoderleri Anlamak.</h2>
+<p><strong>RPM</strong>, dakikadaki devir sayısı anlamına gelen <strong>"Revolutions Per Minute"</strong> ifadesinin kısaltmasıdır.</p>
+<p>Bu, dönen bir nesnenin <strong>bir dakikada kaç tam tur attığını</strong> gösteren <strong>dönme hızı birimidir</strong>. Genellikle aşağıdaki gibi dönen cihazların hızını tanımlamak için kullanılır:</p>
+<ul>
+<li><strong>Motorlar</strong> (örneğin: bir DC motorun 3000 RPM’de dönmesi)</li>
+<li><strong>Tekerlekler</strong></li>
+<li><strong>Fanlar</strong></li>
+<li><strong>Sabit diskler</strong></li>
+<li><strong>Robot aktüatörleri</strong></li>
+</ul>
+<p><strong>Örnek:</strong></p>
+<ul>
+<li>Bir motor <strong>60 RPM</strong> hızında dönüyorsa, bu motorun <strong>her saniyede 1 tam dönüş yaptığı</strong> anlamına gelir.</li>
+<li>
+<p>Bir robotun sol ve sağ tekerlek hızları <code>[10, -10] RPM</code> olarak ayarlandığında:</p>
+</li>
+<li>
+<p>Sol tekerlek 10 RPM ile ileri döner</p>
+</li>
+<li>Sağ tekerlek -10 RPM ile geri döner → bu da robotun <strong>yerinde dönmesini</strong> sağlar</li>
+</ul>
+<p><strong>Motor enkoderleri</strong>, motorlara bağlı olan ve <strong>milin dönüşünü ölçen sensörlerdir</strong>. Bu sayede motorun <strong>konumu</strong>, <strong>hızı</strong> ve <strong>dönüş yönü</strong> hakkında bilgi edinilebilir.</p>
+<hr />
+<p><strong>Motor Enkoderleri Ne İşe Yarar?</strong></p>
+<p>Motorun dönme hareketini <strong>elektrik sinyallerine</strong> çevirir ve bu sinyaller bir mikrodenetleyici, motor sürücü ya da kontrol sistemi tarafından okunabilir.</p>
+<hr />
+<p><strong>Enkoderler Neden Önemlidir?</strong></p>
+<p>Geri bildirim (feedback) sağlayarak:</p>
+<ul>
+<li>Motorun <strong>ne kadar döndüğünü</strong> anlayabiliriz (konum kontrolü)</li>
+<li><strong>Ne kadar hızlı döndüğünü</strong> ölçebiliriz (hız kontrolü)</li>
+<li>Robot, tekerlek, kol gibi sistemlerin <strong>kesin hareketlerini</strong> kontrol edebiliriz</li>
+<li><strong>Kapalı çevrim kontrol</strong> (örneğin PID) sistemleri kurabiliriz</li>
+</ul>
+<hr />
+<p><strong>Kullanım Örneği:</strong></p>
+<p>Eğer bir robot tekerleğine bağlı enkoder <strong>1 turda 1000 pulse</strong> üretiyorsa ve siz <strong>500 pulse</strong> saydıysanız, tekerlek <strong>yarım tur dönmüş</strong> demektir.</p>
+<hr />
+<h2 id="diferansiyel-surus">Diferansiyel sürüş</h2>
+<p><strong>Diferansiyel sürüş</strong>, özellikle <strong>karasal mobil robotlarda</strong> yaygın olarak kullanılan bir sürüş sistemidir. Bu sistemde robotun <strong>iki bağımsız tahrikli tekerleği</strong> bulunur (genellikle sol ve sağ), ve robot bu tekerleklerin hızıyla yönlendirilir.</p>
+<hr />
+<p><strong>Temel Kavram:</strong></p>
+<p>Robot, <strong>sol ve sağ tekerleklerin hız ve yön farkına göre hareket eder ve yön değiştirir</strong>.</p>
+<hr />
+<p><strong>Nasıl Çalışır:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Sol Tekerlek</th>
+<th>Sağ Tekerlek</th>
+<th>Robotun Hareketi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>İleri</td>
+<td>İleri</td>
+<td>Düz ileri gider</td>
+</tr>
+<tr>
+<td>Geri</td>
+<td>Geri</td>
+<td>Düz geri gider</td>
+</tr>
+<tr>
+<td>İleri</td>
+<td>Durur</td>
+<td>Sağa döner (ekseni etrafında)</td>
+</tr>
+<tr>
+<td>Durur</td>
+<td>İleri</td>
+<td>Sola döner (ekseni etrafında)</td>
+</tr>
+<tr>
+<td>İleri</td>
+<td>Geri</td>
+<td>Yerinde döner (saat yönü veya tersi)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Donanım Yapısı:</strong></p>
+<ul>
+<li><strong>2 tahrikli tekerlek</strong> (sol ve sağ)</li>
+<li><strong>1 veya 2 yardımcı tekerlek</strong> (denge için, döner ama tahriksiz)</li>
+<li>Genellikle şu sistemlerde kullanılır: <strong>iç mekân robotları</strong>, <strong>robot süpürgeler</strong>, <strong>eğitim robotları</strong>, <strong>otomatik yönlendirmeli araçlar (AGV)</strong> vb.</li>
+</ul>
+<hr />
+<p><strong>Avantajları:</strong></p>
+<ul>
+<li>Basit mekanik yapı ve kontrol</li>
+<li>Düz yüzeylerde iyi performans</li>
+<li>Tekerlek enkoderleri ile hassas konum kontrolü yapılabilir</li>
+</ul>
+<p><strong>Dezavantajları:</strong></p>
+<ul>
+<li>Engebeli zeminlerde iyi çalışmaz</li>
+<li>Dönüşler kayarak yapılır (araba gibi direksiyonlu dönemez)</li>
+</ul>
+<hr />
+<p><strong>Örnek:</strong></p>
+<ol>
+<li>Sol tekerlek 10 RPM hızla, sağ tekerlek -10 RPM hızla dönerse, robot <strong>yerinde döner</strong>.</li>
+</ol>
+<pre><code class="language-python">import time
+from orbitlab import OrbitDriver
+
+orbit = OrbitDriver()
+orbit.set_rpm([10, 10])  #sağ tekel fizksel ters -10 RPM yerine (-1 * -10) = 10 RPM
+time.sleep(5)
+orbit.stop()
+</code></pre>
+<ol>
+<li>
+<p><strong>Çember şeklinde hareket etme</strong>: Bir diferansiyel sürüşlü robotun çember şeklinde hareket etmesini sağlamak için, sol ve sağ tekerlekler aynı yönde fakat farklı hızlarda döndürülmelidir.</p>
+<ul>
+<li>
+<p>Hız farkı, robotun döneceği çemberin yarıçapını belirler.</p>
+</li>
+<li>
+<p>Robot, daha yavaş dönen tekerlek yönüne doğru döner.</p>
+</li>
+</ul>
+<p><code>orbit.set_rpm([20, -10])</code></p>
+</li>
+<li>
+<p><strong>Bir kare çizmek</strong></p>
+</li>
+</ol>
+<pre><code class="language-python">import time
+from orbitlab import OrbitDriver
+
+orbit = OrbitDriver()
+orbit.set_rpm([10, -10]) #ileri git
+time.sleep(2)
+orbit.set_rpm([10, 10])  #sag don
+time.sleep(1)
+orbit.set_rpm([10, -10]) #ileri git
+time.sleep(2)
+orbit.set_rmp([10, 10]) #sag don
+time.sleep(1)
+orbit.set_rpm([10, -10]) #ileri git
+time.sleep(2)
+orbit.set_rpm([10, 10])  #sag don
+time.sleep(1)
+orbit.set_rpm([10, -10]) #ileri git
+time.sleep(2)
+orbit.set_rmp([10, 10]) #sag don
+time.sleep(1)
+
+orbit.stop()
+</code></pre>
+<p><strong>for loop ile:</strong></p>
+<pre><code class="language-python">import time
+from orbitlab import OrbitDriver
+for i in range(4):
+    orbit.set_rpm([10, -10]) #ileri git
+    time.sleep(2)
+    orbit.set_rpm([10, 10])  #sag don
+    time.sleep(1)
+
+orbit.stop()
+</code></pre>
+<h2 id="robot-hzn-okumak">Robot hızını okumak</h2>
+<p>Önceki uygulamalarda, robotun ne kadar mesafe kat etmesi gerektiğini kontrol etmek için <code>time.sleep()</code> fonksiyonunu kullandık. Ancak bu yöntem güvenilir değildir; engeller, düzensiz yüzeyler veya motorlardaki tutarsızlıklar gibi nedenlerle hızda meydana gelen değişiklikler, robotun gerçekte kat ettiği mesafede önemli sapmalara yol açabilir.</p>
+<p>Orbit robotu, her motorun gerçek hızını anlık olarak geri bildiren enkoderlerle donatılmıştır. Bu sayede hareket kontrolü çok daha hassas ve tutarlı bir şekilde gerçekleştirilebilir.</p>
+<p><code>orbitlab</code> kütüphanesini kullanarak robotun mevcut hızını okumak için <code>speed</code> modülünden faydalanabilirsiniz. Bu modül, sol ve sağ motorların dakikadaki devir sayısını (RPM - rotations per minute) temsil eden iki tam sayıdan oluşan bir liste döndürür:</p>
+<pre><code class="language-python">sol_motor_rpm, sag_motor_rpm = orbit.speed()
+</code></pre>
+<p>Enkoder geri bildirimi kullanarak robot programlarınızda daha hassas mesafe ve hız kontrolü sağlayabilirsiniz.</p>
+<p><strong>Örnek:</strong></p>
+<pre><code class="language-python">import time
+from orbitlab import OrbitDriver
+
+zaman = 0.0
+orbit = OrbitDriver()
+
+orbit.set_rpm([10, 10])
+
+while zaman &lt;= 5.0:
+    sol_motor_rpm, sag_motor_rpm = orbit.speed()
+    print(f&quot;Sol motor RPM: {sol_motor_rpm}, Sağ motor RPM: {sag_motor_rpm}&quot;)
+    time.sleep(0.5)
+    zaman += 0.5
+
+orbit.stop()
+</code></pre>
+<h2 id="diferansiyel-suruculu-robotta-dogrusal-ve-acsal-hzn-motor-rpm-degerine-donusturulmesi">Diferansiyel Sürücülü Robotta Doğrusal ve Açısal Hızın Motor RPM Değerine Dönüştürülmesi</h2>
+<p>Bir diferansiyel tahrikli robotta hareket, sol ve sağ tekerleklerin dönme hızları ayarlanarak sağlanır. Belirli bir <strong>doğrusal hız</strong> (ileri/geri hareket) ve <strong>açısal hız</strong> (dönme) elde etmek için, her motorun ne kadar hızlı dönmesi gerektiğini — yani <strong>RPM (dakikadaki devir sayısı)</strong> cinsinden — hesaplamamız gerekir.</p>
+<p>Bu dönüşüm, motor enkoderleriyle donatılmış Orbit gibi robotlar için oldukça önemlidir. Sabit gecikmeler kullanmak yerine, gerçek kinematik denklemlere dayanarak tekerlek hızlarını hassas bir şekilde komutlandırabiliriz.</p>
+<hr />
+<p><strong>Gerekli Parametreler:</strong></p>
+<ul>
+<li><strong>v</strong>: Robotun doğrusal hızı (m/s cinsinden)</li>
+<li><strong>ω</strong>: Robotun açısal hızı (rad/s cinsinden)</li>
+<li><strong>r</strong>: Tekerlek yarıçapı (metre cinsinden)</li>
+<li><strong>L</strong>: İki tekerlek arasındaki mesafe, yani dingil açıklığı (metre cinsinden)</li>
+</ul>
+<hr />
+<p><strong>Adım Adım Dönüştürme Süreci:</strong></p>
+<ol>
+<li><strong>Tekerleklerin Doğrusal Hızını Hesaplayın:</strong></li>
+</ol>
+<p>Robotun hareketi iki tekerleğe bölünür:</p>
+<p>$$
+   v_L = v - \frac{L}{2} \cdot \omega
+   $$</p>
+<p>$$
+   v_R = v + \frac{L}{2} \cdot \omega
+   $$</p>
+<ul>
+<li>
+<p>$v_L$ ve $v_R$: Sol ve sağ tekerleklerin doğrusal hızlarıdır.</p>
+</li>
+<li>
+<p><strong>Doğrusal Hızı Açısal Hıza Dönüştürün:</strong></p>
+</li>
+</ul>
+<p>Motorlar döner hareket yaptığı için tekerlek hızını radyan/saniye (rad/s) cinsine çeviriyoruz:</p>
+<p>$$
+   \omega_L = \frac{v_L}{r}, \quad \omega_R = \frac{v_R}{r}
+   $$</p>
+<ol>
+<li><strong>Açısal Hızı RPM’ye Dönüştürün:</strong></li>
+</ol>
+<p>RPM (dakikadaki devir sayısı) elde etmek için:</p>
+<p>$$
+   RPM = \omega \cdot \frac{60}{2\pi}
+   $$</p>
+<p>Yani:</p>
+<p>$$
+   RPM_L = \omega_L \cdot \frac{60}{2\pi}, \quad RPM_R = \omega_R \cdot \frac{60}{2\pi}
+   $$</p>
+<hr />
+<p><strong>Örnek Python Fonksiyonu:</strong></p>
+<p>Tekerlekler arasındaki yarıçap ve mesafe <code>orbitlab</code> sabit değerlerinde bulunur.</p>
+<pre><code class="language-python">import math
+from orbitlab import OrbitDriver
+orbit = OrbitDriver()
+
+r = orbit.RADIUS
+L = orbit.WHEEL_L
+
+def speed_to_rpm(v, omega, r, L):
+    v_l = v - (L / 2.0) * omega
+    v_r = v + (L / 2.0) * omega
+
+    omega_l = v_l / r
+    omega_r = v_r / r
+
+    rpm_l = omega_l * 60 / (2 * math.pi)
+    rpm_r = omega_r * 60 / (2 * math.pi)
+
+    return [rpm_l, rpm_r]
+</code></pre>
+<hr />
+<p><strong>Kullanım Örneği:</strong></p>
+<pre><code class="language-python">rpm_degerleri = speed_to_rpm(v=0.3, omega=0.4, r=r, L=L)
+print(&quot;Sol RPM:&quot;, rpm_degerleri[0])
+print(&quot;Sağ RPM:&quot;, rpm_degerleri[1])
+</code></pre>
+<hr />
+<h2 id="sol-ve-sag-motor-rpm-degerlerinden-dogrusal-ve-acsal-hz-hesaplama">Sol ve Sağ Motor RPM Değerlerinden Doğrusal ve Açısal Hız Hesaplama</h2>
+<p>Bir diferansiyel tahrikli robotta, <strong>sol ve sağ motorların RPM değerlerini</strong> kullanarak robotun gerçek <strong>doğrusal (ileri/geri)</strong> ve <strong>açısal (dönme)</strong> hızlarını hesaplamak mümkündür. Bu işlem, ileri kinematiğin tersidir.</p>
+<hr />
+<p><strong>Verilen Parametreler:</strong></p>
+<ul>
+<li>$\text{RPM}_L$: Sol motorun RPM değeri</li>
+<li>$\text{RPM}_R$: Sağ motorun RPM değeri</li>
+<li>$r$: Tekerlek yarıçapı (metre cinsinden)</li>
+<li>$L$: İki tekerlek arasındaki mesafe (dingil açıklığı) (metre cinsinden)</li>
+</ul>
+<hr />
+<p><strong>Adım Adım Dönüştürme Süreci:</strong></p>
+<ol>
+<li>
+<p><strong>RPM’yi açısal hıza çevirin (rad/s):</strong></p>
+<p>$$
+\omega_L = \text{RPM}_L \cdot \frac{2\pi}{60}
+$$</p>
+<p>$$
+\omega_R = \text{RPM}_R \cdot \frac{2\pi}{60}
+$$</p>
+</li>
+<li>
+<p><strong>Açısal hızı doğrusal hıza çevirin:</strong></p>
+<p>$$
+v_L = \omega_L \cdot r
+$$</p>
+<p>$$
+v_R = \omega_R \cdot r
+$$</p>
+</li>
+<li>
+<p><strong>Robotun doğrusal ve açısal hızını hesaplayın:</strong></p>
+<p>$$
+v = \frac{v_L + v_R}{2}
+$$</p>
+<p>$$
+\omega = \frac{v_R - v_L}{L}
+$$</p>
+</li>
+</ol>
+<p><strong>Python Kod Örneği:</strong></p>
+<pre><code class="language-python">import math
+from orbitlab import OrbitDriver
+orbit = OrbitDriver()
+
+r = orbit.RADIUS
+L = orbit.WHEEL_L
+
+def rpm_to_speed(rpm_l, rpm_r, r, L):
+    # 1. RPM → rad/s
+    omega_l = rpm_l * 2 * math.pi / 60
+    omega_r = rpm_r * 2 * math.pi / 60
+
+    # 2. rad/s → m/s
+    v_l = omega_l * r
+    v_r = omega_r * r
+
+    # 3. Robotun hızları
+    v = (v_l + v_r) / 2
+    omega = (v_r - v_l) / L
+
+    return v, omega
+</code></pre>
+<hr />
+<p><strong>Kullanım Örneği:</strong></p>
+<pre><code class="language-python">v, omega = rpm_to_speed(rpm_l=100, rpm_r=120, r=r, L=L)
+print(f&quot;Doğrusal hız: {v:.2f} m/s&quot;)
+print(f&quot;Açısal hız: {omega:.2f} rad/s&quot;)
+</code></pre>
+<p>Bu işlem sayesinde, robotunuzun enkoderlerinden gelen RPM verilerini kullanarak robotun gerçek hareketini (ileri gitme hızı ve dönüş hızı) doğru bir şekilde ölçebilirsiniz.</p>
+<p>Artık robotun motorlarından alınan gerçek zamanlı RPM verilerini kullanarak, zamanla kat edilen mesafeyi hassas bir şekilde hesaplayabiliriz. Bu yöntem, zaman tabanlı tahminlere kıyasla daha doğru ve güvenilir bir hareket takibi sağlamak için enkoder geri bildiriminden yararlanır.</p>
+<p><strong>Örnek:</strong></p>
+<pre><code class="language-python">from orbitlab import OrbitDriver
+import time
+mesafe = 0.0
+
+orbit = OrbitDriver()
+
+r = orbit.RADIUS
+L = orbit.WHEEL_L
+
+orbit.set_rpm([10, -10])
+
+while mesafe &lt;= 1.0:
+    sol_motor_rpm, sag_motor_rpm = orbit.speed()
+    v, omega = rpm_to_speed(sol_motor_rpm, sag_motor_rpm, r, L)
+    mesafe += v * 0.1
+    time.sleep(0.1)
+
+orbit.set_rpm([0, 0])
+orbit.stop()
+</code></pre>
+<hr />
+<p>Robotun yönelme açısı, açısal hızının geçen zamanla çarpılmasıyla hesaplanabilir. Bu yöntem, zaman içinde robotun yönelimini tahmin etmek için basit fakat etkili bir yaklaşımdır.</p>
+<p><strong>Örnek:</strong></p>
+<pre><code class="language-python">from orbitlab import OrbitDriver
+import math
+import time
+
+aci = 0.0
+
+orbit = OrbitDriver()
+
+r = orbit.RADIUS
+L = orbit.WHEEL_L
+
+orbit.set_rpm([10, 10])
+
+while mesafe &lt;= math.pi/2:
+    sol_motor_rpm, sag_motor_rpm = orbit.speed()
+    v, omega = rpm_to_speed(sol_motor_rpm, sag_motor_rpm, r, L)
+    phi += omega * 0.1
+    phi = math.atan2(math.sin(phi), math.cos(phi))
+    time.sleep(0.1)
+
+orbit.set_rpm([0, 0])
+orbit.stop()
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
