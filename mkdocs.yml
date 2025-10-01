@@ -1,0 +1,34 @@
+site_name: Orbit Python SDK
+
+theme:
+  language: tr
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+
+  features:
+    - content.code.copy
+
+plugins:
+  - mkdocstrings:
+      enabled: !ENV [ENABLE_MKDOCSTRINGS, true]
+      default_handler: python
+      locale: tr
+      handlers:
+        python:
+          options:
+            show_source: false
+  - search
+nav:
+  - index.md
+  - tutorials.md
+  - How-To Guides: how-to-guides.md
+  - reference.md
+  - explanation.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      pygments_style: monokai
