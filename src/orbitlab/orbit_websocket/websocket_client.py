@@ -89,7 +89,7 @@ class OrbitWebsocketClient(threading.Thread):
         if not isinstance(song_name, str):
             raise ValueError("Song name must be a string.")
         print("play song comming soon...")
-        # self.__call_service("play_song", "orbit_command_msgs/Song", json.dumps({"song_name": song_name}), None)
+        self.__call_service('play_music', 'orbit_command_msgs/SetString', json.dumps({"req": song_name}), None)
     
     def dance(self, song_name:str):
         """Make the robot dance to a predefined song.
@@ -99,7 +99,7 @@ class OrbitWebsocketClient(threading.Thread):
         """
         if not isinstance(song_name, str):
             raise ValueError("Song name must be a string.")
-        self.__call_service('dance', "orbit_command_msgs/SetString", json.dumps({"req", song_name}), None)
+        self.__call_service('dance', "orbit_command_msgs/SetString", json.dumps({"req": song_name}), None)
 
     @auto_stop_on_error
     def set_rgb(self, rgb:list):
@@ -292,7 +292,6 @@ class OrbitWebsocketClient(threading.Thread):
             print(f"Service {topic} is not available.")
             # self.start_subscriptions()
             return
-        print("Service response received.")
         # self.start_subscriptions()
     
     def __call_action(self, topic, msg_type, msg_data, callback=None):

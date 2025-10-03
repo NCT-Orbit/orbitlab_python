@@ -1,5 +1,6 @@
 build/
 dist/
+site/
 venv/
 src/orbitlab/__pycache__/
 src/orbitlab/orbit_utils/__pycache__/
