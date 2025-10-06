@@ -9,22 +9,20 @@
       
       
       
-        <link rel="prev" href="../how-to-guides/">
+        <link rel="prev" href="../orbit-ai/">
       
-      
-        <link rel="next" href="../explanation/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>Reference - Orbit Python SDK</title>
+        <title>API Referansı - Orbit Python Kütüphanesi</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -88,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Başlık">
-    <a href=".." title="Orbit Python SDK" class="md-header__button md-logo" aria-label="Orbit Python SDK" data-md-component="logo">
+    <a href=".." title="Orbit Python Kütüphanesi" class="md-header__button md-logo" aria-label="Orbit Python Kütüphanesi" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -102,13 +100,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Orbit Python SDK
+            Orbit Python Kütüphanesi
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reference
+              API Referansı
             
           </span>
         </div>
@@ -186,13 +184,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigasyon" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Orbit Python SDK" class="md-nav__button md-logo" aria-label="Orbit Python SDK" data-md-component="logo">
+    <a href=".." title="Orbit Python Kütüphanesi" class="md-nav__button md-logo" aria-label="Orbit Python Kütüphanesi" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Orbit Python SDK
+    Orbit Python Kütüphanesi
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -209,7 +207,7 @@
   
   
   <span class="md-ellipsis">
-    Home
+    Ana Sayfa
     
   </span>
   
@@ -226,12 +224,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorials/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Tutorials
+    Başlarken
     
   </span>
   
@@ -248,12 +246,34 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to-guides/" class="md-nav__link">
+      <a href="../robotic-programming/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    How-To Guides
+    Robotik programlama
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orbit-ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Orbit AI
     
   </span>
   
@@ -282,7 +302,7 @@
   
   
   <span class="md-ellipsis">
-    Reference
+    API Referansı
     
   </span>
   
@@ -295,7 +315,7 @@
   
   
   <span class="md-ellipsis">
-    Reference
+    API Referansı
     
   </span>
   
@@ -592,28 +612,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../explanation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Explanation
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -931,7 +929,7 @@
 
 
 
-  <h1>Reference</h1>
+  <h1>API Referansı</h1>
 
 <p>This part of the project documentation focuses on
 an <strong>information-oriented</strong> approach. Use it as a
@@ -1728,7 +1726,7 @@ reference for the technical implementation of the
 
 
 <h3 id="src.orbitlab.orbit_websocket.websocket_client.OrbitWebsocketClient.set_head_pose" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">set_head_pose</span><span class="p">(</span><span class="n">pose</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">set_head_pose</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></code>
 
 </h3>
 
@@ -1751,14 +1749,30 @@ reference for the technical implementation of the
       <tbody>
           <tr class="doc-section-item">
             <td>
-                <code>pose</code>
+                <code>x</code>
             </td>
             <td>
-                  <code><span title="list">list</span></code>
+                  <code><span title="int">int</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>A list of two float values representing the head cordinates [x, y]</p>
+                <p>The horizontal angle in degrees (-300 to 300).</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>y</code>
+            </td>
+            <td>
+                  <code><span title="int">int</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The vertical angle in degrees (-300 to 300).</p>
               </div>
             </td>
             <td>
@@ -2420,10 +2434,14 @@ reference for the technical implementation of the
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.admonitions"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
