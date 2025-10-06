@@ -1,4 +1,5 @@
 site_name: Orbit Python Kütüphanesi
+site_icon: assets/orbit_icon.png
 
 theme:
   language: tr
@@ -9,6 +10,8 @@ theme:
   font:
     text: Roboto
     size: 12
+  logo: assets/orbit_icon.png
+  favicon: assets/orbit_icon.png
 
   features:
     - content.code.copy
