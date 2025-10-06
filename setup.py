@@ -5,7 +5,7 @@ package_name = "orbitlab-python"
 
 setup(
     name=package_name,
-    version='0.0.1',
+    version='0.0.3',
     package_dir={'':'src'},
     packages=find_packages(where='src'),
     data_files=[

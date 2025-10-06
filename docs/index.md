@@ -1,30 +1,20 @@
-This site contains the project documentation for the
-`calculator` project that is a toy module used in the
-Real Python tutorial
-[Build Your Python Project Documentation With MkDocs](
-    https://realpython.com/python-project-documentation-with-mkdocs/).
-Its aim is to give you a framework to build your
-project documentation using Python, MkDocs,
-mkdocstrings, and the Material for MkDocs theme.
+Bu bölüm, Orbit Python kütüphanesini ve Python ile robotik programlamanın temellerini tanıtmaktadır. 
+Robot algısı, karar verme ve kontrol gibi temel kavramları öğreneceksiniz. Kütüphane, 
+Orbit robotları için bir Python API’si sunar ve robotu Python soketi aracılığıyla kontrol 
+etmenizi sağlar.
 
-## Table Of Contents
+<img src="assets/orbit_python.png" width="60%">
 
-The documentation follows the best practice for
-project documentation as described by Daniele Procida
-in the [Diátaxis documentation framework](https://diataxis.fr/)
-and consists of four separate parts:
+## İçindekiler
 
-1. [Tutorials](tutorials.md)
-2. [How-To Guides](how-to-guides.md)
-3. [Reference](reference.md)
-4. [Explanation](explanation.md)
 
-Quickly find what you're looking for depending on
-your use case by looking at the different pages.
+1. [Başlarken](getting-started.md)
+2. [Robotik programlama](robotic-programming.md)
+3. [Orbit AI](orbit-ai.md)
+4. [API Referansı](reference.md)
 
-## Acknowledgements
 
-I want to thank my house plants for providing me with
-a negligible amount of oxygen each day. Also, I want
-to thank the sun for providing more than half of their
-nourishment free of charge.
+## Teşekkürler
+
+Bu kütüphanenin geliştirilmesine katkıda bulunan açık kaynak topluluğuna ve Orbit ekibine teşekkür 
+ederiz.

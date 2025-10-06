@@ -1,4 +1,4 @@
-site_name: Orbit Python SDK
+site_name: Orbit Python Kütüphanesi
 
 theme:
   language: tr
@@ -6,9 +6,13 @@ theme:
   palette:
     scheme: slate
     primary: indigo
+  font:
+    text: Roboto
+    size: 12
 
   features:
     - content.code.copy
+    - content.admonitions
 
 plugins:
   - mkdocstrings:
@@ -21,14 +25,23 @@ plugins:
             show_source: false
   - search
 nav:
-  - index.md
-  - tutorials.md
-  - How-To Guides: how-to-guides.md
-  - reference.md
-  - explanation.md
+  - Ana Sayfa: index.md
+  - Başlarken: getting-started.md
+  - Robotik programlama: robotic-programming.md
+  - Orbit AI: orbit-ai.md
+  - API Referansı: reference.md
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       linenums: true
       pygments_style: monokai
+
+  - pymdownx.extra
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

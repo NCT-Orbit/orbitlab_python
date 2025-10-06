@@ -129,16 +129,18 @@ class OrbitWebsocketClient(threading.Thread):
         self.__call_service("arduino_write_value", "arduino_msgs/ArduinoWrite", json.dumps({"cmd_type": 1, "arguments": [animation_type] + rgb}), None)
     
     @auto_stop_on_error
-    def set_head_pose(self, pose:list):
+    def set_head_pose(self, x:int, y:int):
         """Set the head pose of the robot.
         
         Args:
-            pose (list): A list of two float values representing the head cordinates [x, y]
+            x (int): The horizontal angle in degrees (-300 to 300).
+            y (int): The vertical angle in degrees (-300 to 300).
         """
-        if not isinstance(pose, list) or len(pose) != 2 or not all(isinstance(x, (int, int)) for x in pose):
-            raise ValueError("Pose must be a list of two float values.")
+        pose = [x, y]
+        if not all(isinstance(x, (int, int)) for x in pose):
+            raise ValueError("x and y must be integers.")
         if not all(-300 <= x <= 300 for x in pose):
-            raise ValueError("Pose values must be between -300 and 300 degrees.")
+            raise ValueError("x and y must be between -300 and 300 degrees.")
         self.__call_service("arduino_write_value", "arduino_msgs/ArduinoWrite", json.dumps({"cmd_type": 2, "arguments": pose + [0, 0]}), None)
     
     def head_calibration(self):

@@ -8,7 +8,9 @@ face_change = False
 while True:
     try:
         akim = orbit.current()
-        print(akim)
+        mesafe = orbit.distance_value()
+
+        # print(akim)
         if akim > 3.0:
             if not face_change:
                 orbit.change_face(FaceId.ERROR)
