@@ -2,6 +2,7 @@ from .orbit_websocket.websocket_client import OrbitWebsocketClient
 import base64
 import numpy as np
 import cv2
+import datetime
 
 class Orbit(OrbitWebsocketClient):
     """Initialize the Orbit robot client.
@@ -61,7 +62,7 @@ class Orbit(OrbitWebsocketClient):
         Returns:
             distance: Distance in meters (m).
         """
-        return round(self.driver_data.get("distance", 0.0), 2)
+        return round(self.arduino_data.get("distance", 0.0), 2)
     
     def ldr_value(self) -> int:
         """Get the light-dependent resistor (LDR) value of the robot.
@@ -74,7 +75,7 @@ class Orbit(OrbitWebsocketClient):
     def save_image(self):
         """Save the current image from the robot's camera."""
         if self.image_data:
-            epox = self.image_data.get("header", {}).get("sec", "")
+            epox = datetime.datetime.now().strftime("%Y_%m_%d_%H:%M:%S")
             compression_format = self.image_data.get("format", "")
             data = self.image_data.get("data", "").encode('utf-8')
             image_bytes = base64.b64decode(data) if data else b''

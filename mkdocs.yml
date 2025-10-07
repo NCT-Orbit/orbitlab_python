@@ -1,5 +1,4 @@
 site_name: Orbit Python Kütüphanesi
-site_icon: assets/orbit_icon.png
 
 theme:
   language: tr
@@ -16,6 +15,7 @@ theme:
   features:
     - content.code.copy
     - content.admonitions
+    - navigation.footer
 
 plugins:
   - mkdocstrings:
@@ -28,11 +28,14 @@ plugins:
             show_source: false
   - search
 nav:
-  - Ana Sayfa: index.md
-  - Başlarken: getting-started.md
-  - Robotik programlama: robotic-programming.md
-  - Orbit AI: orbit-ai.md
-  - API Referansı: reference.md
+  - Orbit Kodlama Seti Dökümantasyonu: index.md
+  - Temel Seviye: temel_seviye.md
+  - Orbit Python:
+      - Orbit Python: python-docs/python_index.md
+      - Başlarken: python-docs/getting-started.md
+      - Robotik programlama: python-docs/robotic-programming.md
+      - Orbit AI: python-docs/orbit-ai.md
+      - API Referansı: python-docs/reference.md
 
 markdown_extensions:
   - pymdownx.highlight:

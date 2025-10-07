@@ -1,20 +1,26 @@
-Bu bölüm, Orbit Python kütüphanesini ve Python ile robotik programlamanın temellerini tanıtmaktadır. 
-Robot algısı, karar verme ve kontrol gibi temel kavramları öğreneceksiniz. Kütüphane, 
-Orbit robotları için bir Python API’si sunar ve robotu Python soketi aracılığıyla kontrol 
-etmenizi sağlar.
+# Orbit Kodlama Seti Dökümantasyonu
+## Temel Seviye Block Kodlama
+### İçindekiler
+Dökümantasyon dört ayrı bölümden oluşur:
 
-<img src="assets/orbit_python.png" width="60%">
-
-## İçindekiler
-
-
-1. [Başlarken](getting-started.md)
-2. [Robotik programlama](robotic-programming.md)
-3. [Orbit AI](orbit-ai.md)
-4. [API Referansı](reference.md)
+1. [Temel Seviye](temel_seviye.md)
+2. [Orbit Python](python-docs/python_index.md)
 
 
-## Teşekkürler
+### OrbitKidsLab nedir?
+Çocuklara erken yaşta algoritma mantığını kavratmayı amaçlayan, blok tabanlı kodlama ile yalnızca simülasyon değil, aynı zamanda gerçek zamanlı programlama deneyimi sunan bir eğitim sitesidir.
 
-Bu kütüphanenin geliştirilmesine katkıda bulunan açık kaynak topluluğuna ve Orbit ekibine teşekkür 
-ederiz.
+### Kimler için Uygundur?
+5-7 yaş aralığındaki çocuklar için uygundur.
+
+<!-- 
+[Öğretmen](https://www.orbitkidslab.com/teachers/login){ target="_blank" } olarak kayıt yapmak için tıklayın.
+
+[Öğrenci](https://www.orbitkidslab.com/students/join){ target="_blank" } olarak giriş yapmak için tıklayın. -->
+
+
+
+
+
+
+
