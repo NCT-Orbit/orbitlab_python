@@ -1,22 +1,36 @@
 ## Başlangıç
-### Sistem Gereksinimleri
-Herhangi bir pakete veya indirme aracına gereksinim yoktur. Bir adet tarayıcı ve internet bağlantısı yeterlidir.
+### 💻⚙️ Sistem Gereksinimleri 
+Herhangi bir pakete veya indirme aracına gereksinim yoktur. Bir adet tarayıcı ve internet bağlantısı yeterlidir. 
 
-### Kayıt Olma
-#### Öğretmen Kaydı
-Öğretmen olarak kayıt olmak için bir adet e-mail ve şifre girilmesi gerekir.
+---
+### 👩🏻‍🏫 Öğretmen Kaydı
+Öğretmen hesabı oluşturmak için yalnızca e-posta adresi ve şifre bilgisi gereklidir.
+Kayıt tamamlandıktan sonra öğretmen, öğrencilere özel odalar oluşturabilir ve içerik yönetimini gerçekleştirebilir.
 
-#### Öğrenci Kaydı
-Öğrenci kaydı, öğretmen tarafından verilen oda numarası (ROOM CODE) ile giriş yaptıktan sonra, öğrencinin ismi NICKNAME olarak girilerek oluşturulur.
+### 🎓 Öğrenci Kaydı
+Öğrenciler, öğretmen tarafından paylaşılan oda numarası (ROOM CODE) ile sisteme giriş yapabilir.
+Giriş sonrasında öğrenciden yalnızca bir kullanıcı adı (NICKNAME) belirlemesi istenir.
+Bu sayede öğrenciler, kendi profilleri üzerinden derslere katılım sağlayabilir. 👩‍💻
+
 ## Öğretmen Paneli
-##### Rooms
-Odalar *Basic* ve *Medium* olmak üzere iki kategoriye ayrılmaktadır.  
+### Rooms
+Platform üzerindeki odalar iki farklı seviyeye ayrılmıştır:
+
++ Basic (Temel Seviye) — Başlangıç düzeyindeki öğrenciler için hazırlanmıştır.
+
++ Medium (Orta Seviye) — Daha ileri seviye uygulamaları içerir.
+
+Bu yapı sayesinde öğretmenler, öğrencilerin gelişim düzeyine uygun içeriklerle dersleri yönetebilir. 
+
 !!! warning "DİKKAT"
-    Oluşturma sürecinde her iki kategori için de aynı adımlar uygulanır; söz konusu ayrım, basic odada basic görev, medium odada medium görev tanımlanmasıyla görevlerin sistemde seviyelerine göre sınıflandırılmasına yöneliktir.
+    Oda oluşturma süreci her iki kategori (Basic ve Medium) için de aynı adımları içerir.
+    Bu kategoriler arasındaki fark, yalnızca tanımlanan görevlerin seviye bazlı ayrımıdır.
+    Yani Basic odalarda temel düzey görevler, Medium odalarda ise orta seviye görevler yer alır.
+    Bu yapı, görevlerin sistem içerisinde öğrenme seviyelerine göre sınıflandırılmasını sağlar.
 
 
 
-##### Basic Task Oluşturma
+### Basic Task Oluşturma
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/QD5ic5xB__4" 
     title="YouTube video player"
@@ -25,7 +39,7 @@ Odalar *Basic* ve *Medium* olmak üzere iki kategoriye ayrılmaktadır.
     allowfullscreen>
 </iframe>
   
-##### Medium Task Oluşturma
+### Medium Task Oluşturma
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/-2Ut-s4M_SQ" 
     title="YouTube video player"
@@ -34,7 +48,7 @@ Odalar *Basic* ve *Medium* olmak üzere iki kategoriye ayrılmaktadır.
     allowfullscreen>
 </iframe>
 
-##### Basic Task'in Robot Üzerinde Çalıştırılması
+### Basic Task'in Robot Üzerinde Çalıştırılması
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/AxAg6ZONfr4" 
     title="YouTube video player"
@@ -43,15 +57,34 @@ Odalar *Basic* ve *Medium* olmak üzere iki kategoriye ayrılmaktadır.
     allowfullscreen>
 </iframe>
 
-##### Medium Task'in Robot Üzerinde Çalıştırılması
+### Medium Task'in Robot Üzerinde Çalıştırılması
 
 
+### Medium Task Bloklarının Ayrıntılı Anlatımı
 
-##### Robots 
+Videoda anlatılan bloklar:
+
++ If bloğuna else if ve else ekleme
+
++ Function bloğuna parametre ekleme
+
++ List ve text bloklarına `item` ekleme
+
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/7AVII3ycv4g" 
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+
+### Robots 
 
 ![](assets/robot_page.png)
 
-Admin tarafından eklenen öğretmenin çalıştığı robotun görüntülendiği sayfadır. Open Panel ile kontrol paneline bağlanılır.     
+Bu sayfa, admin tarafından sisteme eklenen öğretmenin bağlı olduğu robotun görüntülendiği alandır.
+Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceği kontrol paneline erişim sağlar. 🤖
 
 
 ## Öğrenci Paneli

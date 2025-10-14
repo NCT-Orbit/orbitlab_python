@@ -24,6 +24,7 @@ orbit = Orbit("<ip-address>")
 while True:
     try:
         mesafe = orbit.distance_value()
+        print("Mesafe değeri: ",mesafe)
     except KeyboardInterrupt:
         break
 

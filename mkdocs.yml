@@ -30,23 +30,47 @@ plugins:
 nav:
   - Orbit Kodlama Seti Dökümantasyonu: index.md
   - Temel Seviye: temel_seviye.md
+  - Python 101:
+    - Öğretmen için Konular ve Örnek Uygulamaları:
+      - Değişken ve Veri Türleri: python-egitimi-konu-anlatim/degisken_veri_turleri.md
+      - Strings: python-egitimi-konu-anlatim/strings.md
+      - Numbers : python-egitimi-konu-anlatim/numbers.md
+      - Lists : python-egitimi-konu-anlatim/lists.md
+      - Logical Conditions and Booleans :  python-egitimi-konu-anlatim/logical_booleans.md
+      - If Statements : python-egitimi-konu-anlatim/if_statements.md
+      - Loops:  python-egitimi-konu-anlatim/loops.md
+      - Range : python-egitimi-konu-anlatim/range.md
+      - Functions : python-egitimi-konu-anlatim/functions.md
+    - Öğrenci Örnek Uygulamaları : python-egitimi-konu-anlatim/student_applications.md
+      
+      
+
+
   - Orbit Python:
       - Orbit Python: python-docs/python_index.md
       - Başlarken: python-docs/getting-started.md
       - Robotik programlama: python-docs/robotic-programming.md
       - Orbit AI: python-docs/orbit-ai.md
       - API Referansı: python-docs/reference.md
+  
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       linenums: true
       pygments_style: monokai
-
   - pymdownx.extra
   - admonition
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences
+  - tables       # Bu satırın listede olması gerekir
+  - fenced_code
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.tabbed
+
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
