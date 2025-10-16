@@ -94,4 +94,4 @@ Durum: {'Aktif' if rotation_angle > 0 else 'Kapalı'}
 ---
 
 !!! info "ÖRNEK UYGULAMALAR" 
-    Örnek uygulamalar için <a href="orbitlab_python/python-egitimi-konu-anlatim/assets/degiskenler_veri_turleri.pdf" target="_blank">tıklayınız</a>
+    Örnek uygulamalar için <a href="/orbitlab_python/python-egitimi-konu-anlatim/assets/degiskenler_veri_turleri.pdf" target="_blank">tıklayınız</a>
