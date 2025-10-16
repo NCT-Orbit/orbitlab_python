@@ -192,5 +192,6 @@ Bu bölümde, Python’daki range() fonksiyonunun temellerini öğrendik:
 Örneğin, yalnızca çift sayılar için range(0, n, 2) ifadesi performans açısından en verimli çözümdür.
 ---
 !!! info "ÖRNEK UYGULAMALAR" 
-    Örnek uygulamalar için <a href="/python-egitimi-konu-anlatim/assets/range.pdf" target="_blank">tıklayınız</a>
+    Örnek uygulamalar için <a href="/orbitlab_python/python-egitimi-konu-anlatim/assets/range.pdf" target="_blank">tıklayınız</a>
+    
 

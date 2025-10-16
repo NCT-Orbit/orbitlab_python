@@ -160,6 +160,6 @@ else:
 
 
 !!! info "ÖRNEK UYGULAMALAR" 
-    Örnek uygulamalar için <a href="/python-egitimi-konu-anlatim/assets/functions.pdf" target="_blank">tıklayınız</a>
+    Örnek uygulamalar için <a href="/orbitlab_python/python-egitimi-konu-anlatim/assets/functions.pdf" target="_blank">tıklayınız</a>
 
     

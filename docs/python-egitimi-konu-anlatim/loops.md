@@ -196,4 +196,4 @@ for i, deger in enumerate(sensor_degerleri, start=1):
 ```
 
 !!! info "ÖRNEK UYGULAMALAR" 
-    Örnek uygulamalar için <a href="/python-egitimi-konu-anlatim/assets/loops.pdf" target="_blank">tıklayınız</a>
+    Örnek uygulamalar için <a href="/orbitlab_python/python-egitimi-konu-anlatim/assets/loops.pdf" target="_blank">tıklayınız</a>
