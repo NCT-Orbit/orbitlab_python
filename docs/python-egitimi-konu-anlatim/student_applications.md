@@ -6,7 +6,7 @@
     
     + Değişkenler ve Veri Türleri için <a href="orbitlab_python/python-egitimi-konu-anlatim/assets/degiskenler_ogrenci.pdf "target="_blank">tıklayınız</a>
     
-    + Strings için <a href="orbitlab_python/docs/python-egitimi-konu-anlatim/assets/strings_ogrenci.pdf "target="_blank">tıklayınız</a>
+    + Strings için <a href="orbitlab_python/python-egitimi-konu-anlatim/assets/strings_ogrenci.pdf "target="_blank">tıklayınız</a>
   
 
     + Numbers için <a href="orbitlab_python/python-egitimi-konu-anlatim/assets/numbers_ogrenci.pdf" target="_blank">tıklayınız</a>
@@ -23,4 +23,3 @@
 
     + Functions için <a href="orbitlab_python/python-egitimi-konu-anlatim/assets/function_ogrenci.pdf" target="_blank">tıklayınız</a>
 
-orbitlab_python\docs\python-egitimi-konu-anlatim\assets\strings_ogrenci.pdf
