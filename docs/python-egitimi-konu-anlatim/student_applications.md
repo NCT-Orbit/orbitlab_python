@@ -4,7 +4,7 @@
 
 !!! success "ÖĞRENCİ İÇİN UYGULAMALAR"
     
-    + Değişkenler ve Veri Türleri için <a href="/python-egitimi-konu-anlatim/assets/degiskenler_ogrenci.pdf" target="_blank">tıklayınız</a>
+    + Değişkenler ve Veri Türleri için <a href="/orbitlab_python/python-egitimi-konu-anlatim/assets/degiskenler_ogrenci.pdf"         target="_blank">tıklayınız</a>
     
     + Strings için <a href="/python-egitimi-konu-anlatim/assets/strings_ogrenci.pdf" target="_blank">tıklayınız</a>
 
