@@ -9,7 +9,7 @@
 ### ROBOTUN YÖNÜ VE HAREKETİ
 Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
-
+![İleri Hareket](medium_task_folder/assets/ileri.png)
 <div style="display: flex; align-items: center;">
   <img src="medium_task_folder/assets/ileri.png" alt="İleri Hareket" style="height: 60px; margin-right: 8px;">
   <span>Robot, bu blokta belirtilen değer kadar metere ileri hareket eder ve hareket tamamlandıktan sonra durur. <br>
