@@ -170,7 +170,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
     değişir.<br>
    
   </span>
-  <img src="/medium_task_folder/assets/animation_rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 120px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/medium_task_folder/assets/animation_rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 120px; margin-right: 8px; margin-left : 10px">
 </div>
 
 <br>
