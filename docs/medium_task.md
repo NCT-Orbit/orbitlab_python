@@ -1,20 +1,17 @@
 ## Orbit Bloğunun Açıklaması
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
   <span>Medium Task içinde bulunan "Orbit" sekmesindeki blokların detaylı açıklanması ve verilecek değerlerin ksıtları.
   </span>
 </div>
-
-
-
 
 ### ROBOTUN YÖNÜ VE HAREKETİ
 Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/ileri.png" alt="İleri Hareket" style="height: 60px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/ileri.png" alt="İleri Hareket" style="height: 60px; margin-right: 8px;">
   <span>Robot, bu blokta belirtilen değer kadar metere ileri hareket eder ve hareket tamamlandıktan sonra durur. <br>
     Mesafe (metre) : Robotun ilerleyeceği mesafe değeridir. <br>
     Geçerli aralık : 0.2 ≤ mesafe ≤ 1.0
@@ -22,7 +19,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/geri.png" alt="Geri Hareket" style="height: 60px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/geri.png" alt="Geri Hareket" style="height: 60px; margin-right: 8px;">
   <span>Robot, bu blokta belirtilen değer kadar metere geri hareket eder ve hareket tamamlandıktan sonra durur. <br>
     Mesafe (metre) : Robotun geri gideceği mesafe değeridir. <br>
     Geçerli aralık : 0.2 ≤ mesafe ≤ 1.0
@@ -31,7 +28,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/sag.png" alt="Sağa dönüş" style="height: 60px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/sag.png" alt="Sağa dönüş" style="height: 60px; margin-right: 8px;">
   <span>Bu blok, robotun sağ yöne belirli bir açı kadar dönmesini sağlar. Blok çalıştırıldığında robot, girilen derece değerine göre saat yönünde döner ve dönüş tamamlandığında durur. <br>
     Açı (derece) : Robotun döneceği açı miktarını belirtir.
     Geçerli değer aralığı : 0° - 360°
@@ -40,7 +37,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/sol.png" alt="Sola dönüş" style="height: 60px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/sol.png" alt="Sola dönüş" style="height: 60px; margin-right: 8px;">
   <span>Bu blok, robotun sol yöne belirli bir açı kadar dönmesini sağlar. Blok çalıştırıldığında robot, girilen derece değerine göre saat yönünün tersine döner ve dönüş tamamlandığında durur. <br>
     Açı (derece) : Robotun döneceği açı miktarını belirtir.
     Geçerli değer aralığı : 0° - 360°
@@ -51,7 +48,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/rpm.png" alt="Tekerlek ile hız Kontrolü" style="height: 105px; margin-right: 8px;">
+  <img src="medium_task_folder/assets/rpm.png" alt="Tekerlek ile hız Kontrolü" style="height: 105px; margin-right: 8px;">
   <span>Bu blok, robotun tekerleklerini ayrı ayrı kontrol ederek istenen yönde hareket etmesini sağlar.
     Her bir tekerleğe verilen değer, o tekerleğin dönme hızını (RPM – dakika başına devir) belirtir. <br>
     Bu aralığın dışındaki değerler hatalı çalışmaya neden olabilir. <br>
@@ -74,7 +71,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/durdur.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : -2px">
+  <img src="medium_task_folder/assets/durdur.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : -2px">
   <span>Bu blok, robotun motorlarını durdurmak için her iki tekerleğe de 0 RPM değeri gönderir.
     Bu sayede tekerleklerin dönme hareketi sonlandırılır ve robot hareketsiz konuma geçer.
   </span>
@@ -87,7 +84,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/mesafe.png" alt="Tekerlek ile hız Kontrolü" style="height: 50px; margin-right: 8px; margin-left : -10px">
+  <img src="medium_task_folder/assets/mesafe.png" alt="Tekerlek ile hız Kontrolü" style="height: 50px; margin-right: 8px; margin-left : -10px">
   <span>Mesafe sensörü, çevresindeki nesnelerin uzaklığını ölçer ve sistem kontrol birimine iletir. <br>
   Mesafe (metre) : Ölçtüğü birim metredir.
   Ölçüm aralığı : 0.2 ≤ veri ≤ 1.0
@@ -97,7 +94,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="./medium_task_folder/assets/ldr.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px">
+  <img src="medium_task_folder/assets/ldr.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px">
   <span style="margin-left : 20px">LDR sensörü, ortam ışık seviyesini ölçer ve analog değer olarak sistem kontrol birimine iletir.<br>
   Mesafe (metre) : Ölçtüğü birim metredir.
   Ölçüm aralığı : 0 ≤ veri ≤ 1023 <br>
