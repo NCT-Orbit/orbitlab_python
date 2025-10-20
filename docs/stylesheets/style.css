@@ -1,0 +1,16 @@
+.sensor {
+  display: flex;
+  align-items: flex-start; /* Üstten hizalama */
+  gap: 10px; /* Etiket ile açıklama arası boşluk */
+}
+.sensor-label {
+  min-width: 120px; /* Diğer etiketlerle aynı genişlik */
+  background: #632845;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.sensor-desc {
+  flex: 1; /* Kalan alanı kapla */
+}

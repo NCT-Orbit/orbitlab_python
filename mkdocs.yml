@@ -29,7 +29,9 @@ plugins:
   - search
 nav:
   - Orbit Kodlama Seti Dökümantasyonu: index.md
-  - Temel Seviye: temel_seviye.md
+  - Temel Seviye: 
+    - Orbitkidslab: temel_seviye.md
+    - Medium Task : medium_task.md
   - Python 101:
     - Öğretmen için Konular ve Örnek Uygulamaları:
       - Değişken ve Veri Türleri: python-egitimi-konu-anlatim/degisken_veri_turleri.md
@@ -70,8 +72,11 @@ markdown_extensions:
   - md_in_html
   - pymdownx.details
   - pymdownx.tabbed
+  - pymdownx.blocks.html
 
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+

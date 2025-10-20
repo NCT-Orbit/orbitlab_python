@@ -91,15 +91,7 @@ Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceğ
 
 ### Basit Görevin Kodlanması
 
-<div class="video-container">
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/F0QlPf13xc4" 
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-    </iframe>
-</div>
+
 
 !!! info "İKONLAR"
     | İKON | İSİM | GÖREV |
@@ -113,16 +105,38 @@ Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceğ
     | ![Sıcaklık Ölçümü](assets/icons/sicaklik.png){ width=60px } | Sıcaklık Ölçümü | Ortam sıcaklığını ölçer. |
     | ![Ses Kaydı](assets/icons/ses_kaydi.png){ width=60px } | Ses Kaydı | Öğrencinin mikrofon aracılığıyla ses kaydetmesini sağlar. |
 
-### Medium Görevin Kodlanması
+
 
 <div class="video-container">
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/ZCj5bfg4zHA" 
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-    </iframe>
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/F0QlPf13xc4" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
 </div>
 
 
+
+
+
+### Medium Görevin Kodlanması
+
+<div class="video-container">
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/ZCj5bfg4zHA" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
+</div>
