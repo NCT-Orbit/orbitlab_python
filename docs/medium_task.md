@@ -1,7 +1,7 @@
 ## Orbit Bloğunun Açıklaması
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
   <span>Medium Task içinde bulunan "Orbit" sekmesindeki blokların detaylı açıklanması ve verilecek değerlerin ksıtları.
   </span>
 </div>
@@ -14,7 +14,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/ileri.png" alt="İleri Hareket" style="height: 60px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/ileri.png" alt="İleri Hareket" style="height: 60px; margin-right: 8px;">
   <span>Robot, bu blokta belirtilen değer kadar metere ileri hareket eder ve hareket tamamlandıktan sonra durur. <br>
     Mesafe (metre) : Robotun ilerleyeceği mesafe değeridir. <br>
     Geçerli aralık : 0.2 ≤ mesafe ≤ 1.0
@@ -22,7 +22,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/geri.png" alt="Geri Hareket" style="height: 60px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/geri.png" alt="Geri Hareket" style="height: 60px; margin-right: 8px;">
   <span>Robot, bu blokta belirtilen değer kadar metere geri hareket eder ve hareket tamamlandıktan sonra durur. <br>
     Mesafe (metre) : Robotun geri gideceği mesafe değeridir. <br>
     Geçerli aralık : 0.2 ≤ mesafe ≤ 1.0
@@ -31,7 +31,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/sag.png" alt="Sağa dönüş" style="height: 60px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/sag.png" alt="Sağa dönüş" style="height: 60px; margin-right: 8px;">
   <span>Bu blok, robotun sağ yöne belirli bir açı kadar dönmesini sağlar. Blok çalıştırıldığında robot, girilen derece değerine göre saat yönünde döner ve dönüş tamamlandığında durur. <br>
     Açı (derece) : Robotun döneceği açı miktarını belirtir.
     Geçerli değer aralığı : 0° - 360°
@@ -40,7 +40,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/sol.png" alt="Sola dönüş" style="height: 60px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/sol.png" alt="Sola dönüş" style="height: 60px; margin-right: 8px;">
   <span>Bu blok, robotun sol yöne belirli bir açı kadar dönmesini sağlar. Blok çalıştırıldığında robot, girilen derece değerine göre saat yönünün tersine döner ve dönüş tamamlandığında durur. <br>
     Açı (derece) : Robotun döneceği açı miktarını belirtir.
     Geçerli değer aralığı : 0° - 360°
@@ -51,7 +51,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/rpm.png" alt="Tekerlek ile hız Kontrolü" style="height: 105px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/rpm.png" alt="Tekerlek ile hız Kontrolü" style="height: 105px; margin-right: 8px;">
   <span>Bu blok, robotun tekerleklerini ayrı ayrı kontrol ederek istenen yönde hareket etmesini sağlar.
     Her bir tekerleğe verilen değer, o tekerleğin dönme hızını (RPM – dakika başına devir) belirtir. <br>
     Bu aralığın dışındaki değerler hatalı çalışmaya neden olabilir. <br>
@@ -74,7 +74,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/durdur.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : -2px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/durdur.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : -2px">
   <span>Bu blok, robotun motorlarını durdurmak için her iki tekerleğe de 0 RPM değeri gönderir.
     Bu sayede tekerleklerin dönme hareketi sonlandırılır ve robot hareketsiz konuma geçer.
   </span>
@@ -82,12 +82,12 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
 ### ROBOTUN SENSÖRLERİ
 
-![](/medium_task_folder/assets/sensor_with_orbit_dark.png){ width=400px }
+![](/orbitlab_python/docs/medium_task_folder/assets/sensor_with_orbit_dark.png){ width=400px }
 
 
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/mesafe.png" alt="Tekerlek ile hız Kontrolü" style="height: 50px; margin-right: 8px; margin-left : -10px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/mesafe.png" alt="Tekerlek ile hız Kontrolü" style="height: 50px; margin-right: 8px; margin-left : -10px">
   <span>Mesafe sensörü, çevresindeki nesnelerin uzaklığını ölçer ve sistem kontrol birimine iletir. <br>
   Mesafe (metre) : Ölçtüğü birim metredir.
   Ölçüm aralığı : 0.2 ≤ veri ≤ 1.0
@@ -97,7 +97,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/ldr.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/ldr.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px">
   <span style="margin-left : 20px">LDR sensörü, ortam ışık seviyesini ölçer ve analog değer olarak sistem kontrol birimine iletir.<br>
   Mesafe (metre) : Ölçtüğü birim metredir.
   Ölçüm aralığı : 0 ≤ veri ≤ 1023 <br>
@@ -109,7 +109,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br> 
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/akim.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px"">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/akim.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -2px">
   <span style="margin-left : 10px">Akım sensörü, robotun elektrik devresinden geçen akım değerini ölçer ve sistem kontrol birimine iletir.<br>
     Ölçüm aralığı :  0.0 ≤ veri ≤ 1.6 (Tekerleklerin zorlanmadığı durumda) <br>
    
@@ -119,7 +119,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/voltage.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -4px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/voltage.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -4px">
   <span style="margin-left : 4px">Voltaj sensörü, robotun besleme hattındaki gerilim değerini ölçer ve sistem kontrol birimine iletir. Ölçümler Volt (V) cinsindendir. <br>
   Not: Eğer ölçülen gerilim 23 V’nin altına düşerse, kontrol sistemi robotu otomatik olarak kapatır (undervoltage shutdown).
    
@@ -129,7 +129,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/sicaklik.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -3px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/sicaklik.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : -3px">
   <span>Sıcaklık sensörü, ortam sıcaklığını ölçer ve ölçüm sonucunu sistem kontrol birimine iletir. Ölçümler genellikle derece Celsius (°C) cinsindendir. <br>
     
    
@@ -139,7 +139,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/hiz.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/hiz.png" alt="Tekerlek ile hız Kontrolü" style="height: 45px; margin-right: 8px; margin-left : 10px">
   <span style="margin-left : 40px">Tekerlek sensörlerinden elde edilen hız verisi, devir/dakika (RPM) cinsinden ölçülür ve ilgili sistem bileşenlerine iletilir.<br>
    
   </span>
@@ -149,7 +149,7 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 150px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 150px; margin-right: 8px; margin-left : 10px">
   <span>Robot üstündeki şerit ledin rengini kontrol etmek için kullanılır.
     RGB, Kırmızı (Red), Yeşil (Green) ve Mavi (Blue) renklerinin
     karışımını temsil eder. Bu üç rengin değerini değiştirerek
@@ -170,13 +170,13 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
     değişir.<br>
    
   </span>
-  <img src="/orbitlab_python/docs/medium_task_folder/assets/animation_rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 120px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/orbitlab_python/docs/medium_task_folder/assets/animation_rgb.png" alt="Tekerlek ile hız Kontrolü" style="height: 120px; margin-right: 8px; margin-left : 10px">
 </div>
 
 <br>
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/kafa.png" alt="Tekerlek ile hız Kontrolü" style="height: 100px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/medium_task_folder/assets/kafa.png" alt="Tekerlek ile hız Kontrolü" style="height: 100px; margin-right: 8px; margin-left : 10px">
   <span>Bu blok, robotun kafasının yatay (X) ve dikey (Y) eksenlerde hareket etmesini sağlar. <br>
   Hareket, adım adım kontrol edilir; yani verilen değer
   kadar adet adım (step) robot kafasını ilgili eksende
@@ -196,13 +196,13 @@ Mavi bloklar, robotun yön ve hareket davranışlarını belirler.
 mevcut yüz ifadesi vardır.<br>
    
   </span>
-  <img src="/medium_task_folder/assets/yuz_ifadesi.png" alt="Tekerlek ile hız Kontrolü" style="height: 70px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/medium_task_folder/assets/yuz_ifadesi.png" alt="Tekerlek ile hız Kontrolü" style="height: 70px; margin-right: 8px; margin-left : 10px">
 </div>
 
 ### ETKİLEŞİM ve SESLİ İLETİŞİM BLOKLARI
 
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/konus.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/medium_task_folder/assets/konus.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
   <span>Bu blok, robota doğrudan metin (string) göndererek konuşmasını sağlar. Gönderilen metin, robotun Text-to-Speech (TTS) motoru aracılığıyla seslendirilir.
   </span>
 </div>
@@ -212,12 +212,12 @@ mevcut yüz ifadesi vardır.<br>
 <div style="display: flex; align-items: center;">
   <span>Bu blok, robotun internet üzerinden bir şarkıyı çalmasını sağlar. Kullanıcı sadece şarkının adını girer; blok şarkıyı internetten bulur ve oynatır.
 </span>
- <img src="/medium_task_folder/assets/sarki.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
+ <img src="/orbitlab_python/docs/medium_task_folder/assets/sarki.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
 </div>
 
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="/medium_task_folder/assets/danset.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
+  <img src="/orbitlab_python/docs/medium_task_folder/assets/danset.png" alt="Tekerlek ile hız Kontrolü" style="height: 60px; margin-right: 8px; margin-left : 10px">
   <span>Bu blok, robotun gelişmiş etkileşimli davranışlarını kontrol eder. <br>
         Kullanıcı bir metin girer; blok şunları eş zamanlı olarak yapar: <br>
 • Metni internet üzerinden arar ve şarkıyı çalar. <br>
