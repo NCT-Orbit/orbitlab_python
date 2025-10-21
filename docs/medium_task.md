@@ -224,4 +224,3 @@ hareketlerini kullanarak dans figürleri gerçekleştirir.
    
   </span>
 </div>
-orbitlab_python/docs/../assets/medium_task/akim.png
