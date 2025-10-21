@@ -4,7 +4,7 @@
 Dökümantasyon dört ayrı bölümden oluşur:
 
 1. [Temel Seviye](temel_seviye.md)
-2. [Python 101]("/orbitlab_python/docs/python-egitimi-konu-anlatim")
+2. [Python 101](python-egitimi-konu-anlatim)
 3. [Orbit Python](python-docs/python_index.md)
 
 
