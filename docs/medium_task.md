@@ -1,7 +1,7 @@
 ## Orbit Bloğunun Açıklaması
 
 <div style="display: flex; align-items: center;">
-  <img src="medium_task_folder/assets/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
+  <img src="/orbitlab_python/docs/assets/medium_task/orbit.png" alt="İleri Hareket" style="height: 210px; margin-right: 8px;">
   <span>Medium Task içinde bulunan "Orbit" sekmesindeki blokların detaylı açıklanması ve verilecek değerlerin ksıtları.
   </span>
 </div>
