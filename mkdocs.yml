@@ -29,9 +29,11 @@ plugins:
   - search
 nav:
   - Orbit Kodlama Seti Dökümantasyonu: index.md
+  - Kullanım Kılavuzu : kullanma_kilavuzu.md
   - Temel Seviye: 
     - Orbitkidslab: temel_seviye.md
     - Medium Task : medium_task.md
+    
   - Python 101:
     - Öğretmen için Konular ve Örnek Uygulamaları:
       - Değişken ve Veri Türleri: python-egitimi-konu-anlatim/degisken_veri_turleri.md
@@ -44,6 +46,7 @@ nav:
       - Range : python-egitimi-konu-anlatim/range.md
       - Functions : python-egitimi-konu-anlatim/functions.md
     - Öğrenci Örnek Uygulamaları : python-egitimi-konu-anlatim/student_applications.md
+   
       
       
 
