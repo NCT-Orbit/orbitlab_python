@@ -4,7 +4,7 @@
 Dökümantasyon dört ayrı bölümden oluşur:
 
 1. [Kullanma Kılavuzu](kullanma_kilavuzu.md)
-2. [Temel Seviye](temel_seviye.md)
+2. [Web Sitesi](temel_seviye.md)
 3. [Python 101](python-egitimi-konu-anlatim)
 4. [Orbit Python](python-docs/python_index.md)
 

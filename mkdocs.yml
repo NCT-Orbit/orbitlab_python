@@ -30,9 +30,9 @@ plugins:
 nav:
   - Orbit Kodlama Seti Dökümantasyonu: index.md
   - Kullanım Kılavuzu : kullanma_kilavuzu.md
-  - Temel Seviye: 
-    - Orbitkidslab: temel_seviye.md
-    - Medium Task : medium_task.md
+  - Web Sitesi: 
+    - Öğretmen ve Öğrenci Paneli: temel_seviye.md
+    - Orta Seviye Görev : medium_task.md
     
   - Python 101:
     - Öğretmen için Konular ve Örnek Uygulamaları:
@@ -64,19 +64,20 @@ markdown_extensions:
       anchor_linenums: true
       linenums: true
       pygments_style: monokai
-  - pymdownx.extra
   - admonition
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
-  - tables       # Bu satırın listede olması gerekir
+  - tables
   - fenced_code
   - attr_list
   - md_in_html
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.blocks.html
-
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6

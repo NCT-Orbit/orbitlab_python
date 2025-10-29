@@ -13,24 +13,24 @@ Giriş sonrasında öğrenciden yalnızca bir kullanıcı adı (NICKNAME) belirl
 Bu sayede öğrenciler, kendi profilleri üzerinden derslere katılım sağlayabilir. 👩‍💻
 
 ## Öğretmen Paneli
-### Rooms
+### Sınıflar
 Platform üzerindeki odalar iki farklı seviyeye ayrılmıştır:
 
-+ Basic (Temel Seviye) — Başlangıç düzeyindeki öğrenciler için hazırlanmıştır.
++ Temel Seviye — Başlangıç düzeyindeki öğrenciler için hazırlanmıştır.
 
-+ Medium (Orta Seviye) — Daha ileri seviye uygulamaları içerir.
++ Orta Seviye — Daha ileri seviye uygulamaları içerir.
 
 Bu yapı sayesinde öğretmenler, öğrencilerin gelişim düzeyine uygun içeriklerle dersleri yönetebilir. 
 
 !!! warning "DİKKAT"
-    Oda oluşturma süreci her iki kategori (Basic ve Medium) için de aynı adımları içerir.
+    Sınıf oluşturma süreci her iki kategori (Temel ve Orta) için de aynı adımları içerir.
     Bu kategoriler arasındaki fark, yalnızca tanımlanan görevlerin seviye bazlı ayrımıdır.
-    Yani Basic odalarda temel düzey görevler, Medium odalarda ise orta seviye görevler yer alır.
+    Yani Temel seviye sınıflarda temel düzey görevler, orta seviye sınıflarda ise orta seviye görevler yer alır.
     Bu yapı, görevlerin sistem içerisinde öğrenme seviyelerine göre sınıflandırılmasını sağlar.
 
 
 
-### Basic Task Oluşturma
+### Temel Seviye Görev Oluşturma
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/QD5ic5xB__4" 
     title="YouTube video player"
@@ -39,7 +39,7 @@ Bu yapı sayesinde öğretmenler, öğrencilerin gelişim düzeyine uygun içeri
     allowfullscreen>
 </iframe>
   
-### Medium Task Oluşturma
+### Orta Seviye Görev Oluşturma
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/-2Ut-s4M_SQ" 
     title="YouTube video player"
@@ -48,7 +48,7 @@ Bu yapı sayesinde öğretmenler, öğrencilerin gelişim düzeyine uygun içeri
     allowfullscreen>
 </iframe>
 
-### Basic Task'in Robot Üzerinde Çalıştırılması
+### Temel Seviye Görevin Robot Üzerinde Çalıştırılması
 <iframe width="560" height="315"
     src="https://www.youtube.com/embed/AxAg6ZONfr4" 
     title="YouTube video player"
@@ -57,10 +57,10 @@ Bu yapı sayesinde öğretmenler, öğrencilerin gelişim düzeyine uygun içeri
     allowfullscreen>
 </iframe>
 
-### Medium Task'in Robot Üzerinde Çalıştırılması
+### Orta Seviye Görevin Robot Üzerinde Çalıştırılması
 
 
-### Medium Task Bloklarının Ayrıntılı Anlatımı
+### Orta Seviye Görevin Bloklarının Ayrıntılı Anlatımı
 
 Videoda anlatılan bloklar:
 
@@ -84,12 +84,62 @@ Videoda anlatılan bloklar:
 ![](assets/robot_page.png)
 
 Bu sayfa, admin tarafından sisteme eklenen öğretmenin bağlı olduğu robotun görüntülendiği alandır.
-Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceği kontrol paneline erişim sağlar. 🤖
+
+#### Chatbot Ayarları
+<div class="video-container">
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/v4GWSSOluco" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
+</div>
+
+#### Wifi Ayarları 
+
+<div class="video-container">
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/GbmS4-eEjC0" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
+</div>
+
+
+#### Help Menüsü
+
+<div class="video-container">
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/tDcApuIG4ng" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
+</div>
+
+
+
 
 
 ## Öğrenci Paneli
 
-### Basit Görevin Kodlanması
+### Temel Görevin Kodlanması
 
 
 
@@ -125,7 +175,7 @@ Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceğ
 
 
 
-### Medium Görevin Kodlanması
+### Orta Seviye Görevin Kodlanması
 
 <div class="video-container">
 
@@ -140,3 +190,5 @@ Sayfada bulunan “Open Panel” butonu, öğretmenin robotu kontrol edebileceğ
   </iframe>
 
 </div>
+
+

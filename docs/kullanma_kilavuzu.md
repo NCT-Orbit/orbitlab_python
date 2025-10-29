@@ -83,3 +83,16 @@ Notlar: <br>
 </div>
 
 
+#### Kullanım Modları
+
+<h5>Manuel Kullanım</h5>
+
+Manuel kullanıma iki yerden erişelebilir:
+
+1. Robot sayfasındaki kontrol panelden robot kontrol ile joystick;
+
+<div style="display: flex; justify-content: flex-center; align-items: center;">
+  <img src="../assets/kullanma_kilavuzu/manuel_control.png" style="width: 500px; margin: 8px;">
+  <span style="font-size: 30px; margin: 0 12px;">➡️ </span>
+  <img src="../assets/kullanma_kilavuzu/manuel_control_ai.png" style="width: 420px; margin: 8px;">
+</div>
