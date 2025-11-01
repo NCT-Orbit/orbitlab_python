@@ -89,10 +89,52 @@ Notlar: <br>
 
 Manuel kullanıma iki yerden erişelebilir:
 
-1. Robot sayfasındaki kontrol panelden robot kontrol ile joystick;
+1. Robot sayfasındaki kontrol panelden robot kontrol ile joystick kullanımı;
 
 <div style="display: flex; justify-content: flex-center; align-items: center;">
   <img src="../assets/kullanma_kilavuzu/manuel_control.png" style="width: 500px; margin: 8px;">
   <span style="font-size: 30px; margin: 0 12px;">➡️ </span>
   <img src="../assets/kullanma_kilavuzu/manuel_control_ai.png" style="width: 420px; margin: 8px;">
 </div>
+
+2. Öğretmen Panelindeki sınıflara girilip robot bağlantısı sağlandıktan sonra manuel butonu ile gelen joystick kullanımı;
+
+<div style="display: flex; justify-content: flex-center; align-items: center;">
+  <img src="../assets/kullanma_kilavuzu/kullanim_modu_sinif.png" style="width: 1300px; margin: 8px;">
+</div>
+<div style="display: flex; justify-content: flex-center; align-items: center;">
+  <img src="../assets/kullanma_kilavuzu/kullanim_modu_sinif_1.png" style="width: 1300px; margin: 8px;">
+</div>
+
+<div style="display: flex; justify-content: flex-center; align-items: center;">
+  <img src="../assets/kullanma_kilavuzu/kullanim_modu_joystick.png" style="width: 1300px; margin: 8px;">
+</div>
+
+
+<h5>Otonom Kullanım</h5>
+
+Otonom kullanım için navigasyon moduna geçilmesi gereklidir. Navigasyon modu detatylı olarak ------------------ kısmında anlatılmaktadır.
+
+<h5>Kalibrasyon</h5>
+
+Robot kafa ve çizgi izleyen olmak üzere iki kısımda kalibrasyon alır.
+Robot açıldığı anda kafa kalibrasyonunu şekilde gösterilen videodaki gibi alır.
+
+
+<div class="video-container">
+
+  <iframe 
+      width="560" 
+      height="315"
+      src="https://www.youtube.com/embed/BlsB2-nDhgk" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+  </iframe>
+
+</div>
+
+
+
+
