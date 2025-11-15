@@ -46,7 +46,7 @@ nav:
       - Range : python-egitimi-konu-anlatim/range.md
       - Functions : python-egitimi-konu-anlatim/functions.md
     - Öğrenci Örnek Uygulamaları : python-egitimi-konu-anlatim/student_applications.md
-   
+  
       
       
 
@@ -58,7 +58,8 @@ nav:
       - Orbit AI: python-docs/orbit-ai.md
       - API Referansı: python-docs/reference.md
   
-
+  - Navigasyon:
+      - Kontrol Panel : navigasyon.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
