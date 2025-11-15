@@ -298,6 +298,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#uyarlar-ve-guvenlik-onlemleri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uyarılar ve Güvenlik Önlemleri
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#kullanm-modlar" class="md-nav__link">
     <span class="md-ellipsis">
       Kullanım Modları
@@ -308,6 +317,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#led-komut-tablosu" class="md-nav__link">
+    <span class="md-ellipsis">
+      LED Komut Tablosu
+    </span>
+  </a>
   
 </li>
       
@@ -891,6 +909,74 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Navigasyon
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Navigasyon
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigasyon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kontrol Panel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -944,6 +1030,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#uyarlar-ve-guvenlik-onlemleri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uyarılar ve Güvenlik Önlemleri
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#kullanm-modlar" class="md-nav__link">
     <span class="md-ellipsis">
       Kullanım Modları
@@ -954,6 +1049,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#led-komut-tablosu" class="md-nav__link">
+    <span class="md-ellipsis">
+      LED Komut Tablosu
+    </span>
+  </a>
   
 </li>
       
@@ -978,8 +1082,14 @@
 <h3 id="robot-ilk-kullanm">Robot İlk Kullanım</h3>
 <div style="display: flex; align-items: center;">
   <img src="../assets/kullanma_kilavuzu/siyah_button_gercekci.png" alt="Tekerlek ile hız Kontrolü" style="width: 250px; margin-right: 8px; margin-left : 10px">
-  <span>Robotun buton panelindeki siyah buton sola çevrildiğinde, robot etkin hale gelir. <br>
-  Siyah butonun sağ konuma çevrilmesiyle birlikte şarj sistemi etkinleştirilir ve pil şarj süreci başlatılır.
+  <span>Robot üzerindeki siyah konum anahtarı üç pozisyona sahiptir: <br>
+
+  Sol konum: Robot aktif (çalışma modu) <br>
+
+  Orta konum (0): Robot kapalı <br>
+
+  Sağ konum: Şarj modu aktif
+
   </span>
 
 </div>
@@ -1020,7 +1130,6 @@ Robotun başlatma süreci, donanım bileşenlerinin ve sensörlerin düzgün şe
 
 · Kafa eksenleri sıfır (referans) konumuna getirilir.<br>
 
-· Limit switch veya enkoder verileri doğrulanır. <br><br>
 
 5. LED Göstergesi – Durum 2:<br><br> Sistem kontrolü ve kalibrasyon işlemleri başarıyla tamamlandığında şerit led yeşil renge döner. <br><br>
 
@@ -1036,11 +1145,17 @@ Notlar: <br>
 
 <h4 id="sarj-etme-ve-batarya-kullanma-islemi">Şarj Etme ve Batarya Kullanma İşlemi</h4>
 <div style="display: flex; align-items: center;">
-  <img src="../assets/kullanma_kilavuzu/şarj_doldurma_yeni.png"  style="width: 250px; margin-right: 8px; margin-left : 10px">
-  <span>Siyah butonun sağ tarafa çevrildiğinden emin olduktan sonra şekildeki şarj soketine bataryanın konnektörü takılır.</span>
+  <img src="../assets/kullanma_kilavuzu/şarj_doldurma_yeni.png"  style="width: 300px; height:350px; margin-right: 8px; margin-left : 10px">
+  <span>Konum anahtarının orta (0) konumunda, yani robot kapalı durumda olduğundan emin olun. <br> <br>
+  Şarj adaptörünün soketini robot üzerindeki şarj girişine güvenli şekilde bağlayın. <br> <br>
+  Şarj işlemini başlatmak için konum anahtarını sağa çevirin. <br> <br>
+  Şarj işlemi tamamlandığında anahtarı tekrar 0 (orta) konumuna alın. <br> <br>
+  Şarj soketini yalnızca anahtar 0 konumundayken çıkarın.
+
+</span>
 
 </div>
-
+<p><br></p>
 <div style="display: flex; align-items: center;">
   <span>Robotun güç kaynağı, yüksek verimli bir lityum batarya ile sağlanmaktadır. Şarj işlemi, sisteme entegre edilmiş lityum batarya şarj cihazı (Lithium Battery Charger) aracılığıyla gerçekleştirilir. Cihaz, güvenli şarj yönetimi için akım ve gerilim değerlerini otomatik olarak denetler.<br><br>
     Şarj cihazı üzerindeki gösterge LED’leri, şarj durumunu kullanıcıya bildirir: <br>
@@ -1053,6 +1168,31 @@ Notlar: <br>
 
 </div>
 
+<h4 id="uyarlar-ve-guvenlik-onlemleri">Uyarılar ve Güvenlik Önlemleri</h4>
+<div style="display: flex; align-items: center;">
+  <img src="../assets/kullanma_kilavuzu/orbit_elektrik.png"  style="width: 250px; margin-right: 8px; margin-left : 10px"> <br>
+  <span>· Konum anahtarı sağ konumdayken, robot üzerindeki şarj soketi elektrik altındadır; soket uçlarına elle dokunmayın. <br><br>
+
+· Buton sağ konumdayken soket ve bağlantı noktalarını iletken malzemelerle temas ettirmeyin (metal aletler, anahtar, kablo uçları vb.). <br><br>
+
+· Şarj aleti prize takılıyken, şarj adaptörünün kendi soket uçlarında da elektrik bulunur; adaptörün uçlarına kesinlikle dokunmayın. <br><br>
+
+· Şarj soketinin takma ve çıkarma işlemlerini mutlaka 0 (orta) konumunda gerçekleştirin. <br><br> </span>
+
+</div>
+<div style="display: flex; align-items: center;">
+
+  <span>· Teslim sırasında verilen eğitimde belirtilen tüm güvenlik kurallarına uyun. <br><br>
+
+· Yalnızca üretici tarafından önerilen ve uyumlu şarj adaptörlerini kullanın. <br><br>
+
+· Kablo veya sokette hasar tespit edilmesi durumunda şarj işlemine devam etmeyin; teknik servise başvurun. <br><br>
+
+· Şarj sırasında robotu aşırı sıcaklık, sıvı teması veya yanıcı yüzeylerden uzak tutun.</span>
+
+</div>
+
+<p><br> <br></p>
 <h4 id="kullanm-modlar">Kullanım Modları</h4>
 <h5>Manuel Kullanım</h5>
 
@@ -1100,6 +1240,47 @@ Robot açıldığı anda kafa kalibrasyonunu şekilde gösterilen videodaki gibi
   </iframe>
 
 </div>
+
+<h3 id="led-komut-tablosu">LED Komut Tablosu</h3>
+<h3>🟩 Mat Üzeri LED Durumları</h3>
+<table>
+  <tr><th>Komut Adı</th><th>Mod</th><th>Renk</th><th>Açıklama</th></tr>
+  <tr><td>ileri</td><td>2</td><td style="background-color:cyan;color:black;">Camgöbeği</td><td>İleri hareket — yanıp sönme efekti</td></tr>
+  <tr><td>right</td><td>2</td><td style="background-color:yellow;color:black;">Sarı</td><td>Sağa dönüş — yanıp sönme efekti</td></tr>
+  <tr><td>left</td><td>2</td><td style="background-color:yellow;color:black;">Sarı</td><td>Sola dönüş — yanıp sönme efekti</td></tr>
+  <tr><td>error</td><td>2</td><td style="background-color:red;color:white;">Kırmızı</td><td>Genel hata — kırmızı yanıp sönme</td></tr>
+</table>
+
+<h3>🌐 İnternet Durumları</h3>
+<table>
+  <tr><th>Komut Adı</th><th>Mod</th><th>Renk</th><th>Açıklama</th></tr>
+  <tr><td>online</td><td>3</td><td style="background-color:lime;color:black;">Yeşil</td><td>Cihaz çevrimiçi — parlaklık azalma</td></tr>
+  <tr><td>hotspot</td><td>3</td><td style="background-color:orange;color:black;">Turuncu</td><td>Hotspot aktif — turuncu parlaklık azalma</td></tr>
+  <tr><td>change_mode</td><td>3</td><td style="background-color:yellow;color:black;">Sarı</td><td>Mod değişimi sırasında uyarı</td></tr>
+</table>
+
+<h3>🤖 Navigasyon Durumları (nav2)</h3>
+<table>
+  <tr><th>Komut Adı</th><th>Mod</th><th>Renk</th><th>Açıklama</th></tr>
+  <tr><td>reached</td><td>5</td><td style="background-color:lime;color:black;">Yeşil</td><td>Hedefe ulaşıldı</td></tr>
+  <tr><td>active</td><td>6</td><td style="background-color:cyan;color:black;">Camgöbeği</td><td>Aktif navigasyon</td></tr>
+  <tr><td>status</td><td>5</td><td style="background-color:deepskyblue;color:white;">Açık Mavi</td><td>İstasyon ekleme/silme işlemi</td></tr>
+  <tr><td>complate</td><td>2</td><td style="background-color:lime;color:black;">Yeşil</td><td>Görev tamamlandı</td></tr>
+</table>
+
+<h3>🚨 Hata Kodları</h3>
+<table>
+  <tr><th>Kod</th><th>Mod</th><th>Yanıp Sönme Sayısı</th><th>Renk</th><th>Açıklama</th></tr>
+  <tr><td>error 1</td><td>4</td><td>1</td><td style="background-color:red;color:white;">Kırmızı</td><td>[1] Navigasyon hatası (nav2 failed)</td></tr>
+  <tr><td>error 2</td><td>4</td><td>2</td><td style="background-color:red;color:white;">Kırmızı</td><td>[2] Batarya hatası</td></tr>
+  <tr><td>error 3</td><td>4</td><td>3</td><td style="background-color:red;color:white;">Kırmızı</td><td>[3] IMU'dan yanlış veri gelmesi</td></tr>
+  <tr><td>error 4</td><td>4</td><td>4</td><td style="background-color:red;color:white;">Kırmızı</td><td>[4] İnternet bağlantısı yok</td></tr>
+  <tr><td>error 5</td><td>4</td><td>5</td><td style="background-color:red;color:white;">Kırmızı</td><td>[5] Genel Sensör Hatası</td></tr>
+  <tr><td>error 6</td><td>4</td><td>6</td><td style="background-color:red;color:white;">Kırmızı</td><td>[6] Navigasyon Hatası</td></tr>
+  <!-- <tr><td>errors_7</td><td>4</td><td>7</td><td style="background-color:red;color:white;">Kırmızı</td><td>[7] Tanımlanmamış hata 7</td></tr>
+  <tr><td>errors_8</td><td>4</td><td>8</td><td style="background-color:red;color:white;">Kırmızı</td><td>[8] Tanımlanmamış hata 8</td></tr>
+  <tr><td>errors_9</td><td>4</td><td>9</td><td style="background-color:red;color:white;">Kırmızı</td><td>[9] Tanımlanmamış hata 9</td></tr> -->
+</table>
 
 
 
