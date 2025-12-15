@@ -95,7 +95,7 @@ Notlar: <br>
 
 #### Uyarılar ve Güvenlik Önlemleri
 <div style="display: flex; align-items: center;">
-  <img src="../assets/kullanma_kilavuzu/orbit_elektrik.png"  style="width: 250px; margin-right: 8px; margin-left : 10px"> <br>
+  <img src="../assets/kullanma_kilavuzu/orbit_elektrik.png"  style="width: 250px;  margin-right: 8px; margin-left : 10px"> <br>
   <span>· Konum anahtarı sağ konumdayken, robot üzerindeki şarj soketi elektrik altındadır; soket uçlarına elle dokunmayın. <br><br>
 
 · Buton sağ konumdayken soket ve bağlantı noktalarını iletken malzemelerle temas ettirmeyin (metal aletler, anahtar, kablo uçları vb.). <br><br>
@@ -218,3 +218,40 @@ Robot açıldığı anda kafa kalibrasyonunu şekilde gösterilen videodaki gibi
 </table>
 
 
+
+### Hotspot Ayarları
+
+Hotspot ayarını robotun internet bağlantısı kesilip etraftaki hiçbir network ağına bağlanamadığında yapınız. <br>
+Robotun şerit ledi turuncu yanıp sönüyorsa hotspot'a düştüğünü anlayabiliriz.
+
+<div class = "steps-container">
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot1.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 1: Cihazınızın arayüzünden Wi-Fi bağlantı ayarları menüsüne giriş yapın.</p>
+
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot2.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 2: Robotun kendi adıyla yayınladığı Hotspot ağına bağlanın.
+    Şifre: Nct.2525</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot6.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 3: Cihazınızın tarayıcısına 10.42.0.1 yazarak bu IP'yi aratın.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot3.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 4: Arayüzde yer alan ROS Status göstergesinin “Connected”  konumunda olduğundan emin olun.
+Durum “Connected” değilse sayfayı yenileyerek bağlantıyı tekrar kontrol edin.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot4.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 5: Arayüzde Connected Wi-Fi: Hotspot ifadesinin görüntülenmesi için Scan Wi-Fi butonuna basarak ağ taraması başlatın.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot5.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 6: Bağlanmak istediğiniz yerel kablosuz ağa geçmek için Connect to New Network butonunu seçin. Açılan ekranda yalnızca bağlanacağınız ağın SSID (ağ adı) ve şifresini girin ve Connect butonuna basarak işlemi tamamlayın.</p>
+  </div>
+</div>
+
+Tüm işlemler tamamlandıktan sonra robotun şerit ledini kontrol edin. Led 4 kez kırmızı yanıp sönüyorsa bağlanmaya çalışıyordur. İşlemin ardından yeşil ışık yanacaktır.

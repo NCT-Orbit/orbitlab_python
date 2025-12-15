@@ -14,3 +14,10 @@
 .sensor-desc {
   flex: 1; /* Kalan alanı kapla */
 }
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 32px;
+  justify-content: center;
+}
+

@@ -86,3 +86,6 @@ extra_javascript:
 
 
 docs_dir: docs
+
+extra_css :
+  - stylesheets/style.css

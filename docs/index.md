@@ -15,7 +15,7 @@ Dökümantasyon dört ayrı bölümden oluşur:
 Çocuklara erken yaşta algoritma mantığını kavratmayı amaçlayan, blok tabanlı kodlama ile yalnızca simülasyon değil, aynı zamanda gerçek zamanlı programlama deneyimi sunan bir eğitim sitesidir.
 
 ### Kimler için Uygundur?
-5-7 yaş aralığındaki çocuklar için uygundur.
+4-17 yaş aralığındaki çocuklar için uygundur.
 
 <!-- 
 [Öğretmen](https://www.orbitkidslab.com/teachers/login){ target="_blank" } olarak kayıt yapmak için tıklayın.
