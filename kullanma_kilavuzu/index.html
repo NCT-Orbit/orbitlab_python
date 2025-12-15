@@ -48,6 +48,8 @@
     
       <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -324,6 +326,15 @@
   <a href="#led-komut-tablosu" class="md-nav__link">
     <span class="md-ellipsis">
       LED Komut Tablosu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hotspot-ayarlar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotspot Ayarları
     </span>
   </a>
   
@@ -1061,6 +1072,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hotspot-ayarlar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotspot Ayarları
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1170,7 +1190,7 @@ Notlar: <br>
 
 <h4 id="uyarlar-ve-guvenlik-onlemleri">Uyarılar ve Güvenlik Önlemleri</h4>
 <div style="display: flex; align-items: center;">
-  <img src="../assets/kullanma_kilavuzu/orbit_elektrik.png"  style="width: 250px; margin-right: 8px; margin-left : 10px"> <br>
+  <img src="../assets/kullanma_kilavuzu/orbit_elektrik.png"  style="width: 250px;  margin-right: 8px; margin-left : 10px"> <br>
   <span>· Konum anahtarı sağ konumdayken, robot üzerindeki şarj soketi elektrik altındadır; soket uçlarına elle dokunmayın. <br><br>
 
 · Buton sağ konumdayken soket ve bağlantı noktalarını iletken malzemelerle temas ettirmeyin (metal aletler, anahtar, kablo uçları vb.). <br><br>
@@ -1281,6 +1301,41 @@ Robot açıldığı anda kafa kalibrasyonunu şekilde gösterilen videodaki gibi
   <tr><td>errors_8</td><td>4</td><td>8</td><td style="background-color:red;color:white;">Kırmızı</td><td>[8] Tanımlanmamış hata 8</td></tr>
   <tr><td>errors_9</td><td>4</td><td>9</td><td style="background-color:red;color:white;">Kırmızı</td><td>[9] Tanımlanmamış hata 9</td></tr> -->
 </table>
+
+<h3 id="hotspot-ayarlar">Hotspot Ayarları</h3>
+<p>Hotspot ayarını robotun internet bağlantısı kesilip etraftaki hiçbir network ağına bağlanamadığında yapınız. <br>
+Robotun şerit ledi turuncu yanıp sönüyorsa hotspot'a düştüğünü anlayabiliriz.</p>
+<div class = "steps-container">
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot1.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 1: Cihazınızın arayüzünden Wi-Fi bağlantı ayarları menüsüne giriş yapın.</p>
+
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot2.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 2: Robotun kendi adıyla yayınladığı Hotspot ağına bağlanın.
+    Şifre: Nct.2525</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot6.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 3: Cihazınızın tarayıcısına 10.42.0.1 yazarak bu IP'yi aratın.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot3.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 4: Arayüzde yer alan ROS Status göstergesinin “Connected”  konumunda olduğundan emin olun.
+Durum “Connected” değilse sayfayı yenileyerek bağlantıyı tekrar kontrol edin.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot4.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 5: Arayüzde Connected Wi-Fi: Hotspot ifadesinin görüntülenmesi için Scan Wi-Fi butonuna basarak ağ taraması başlatın.</p>
+  </div>
+  <div class = "step">
+    <img src="../assets/kullanma_kilavuzu/hotspot5.jpg"  style="width: 220px; height:480px;">
+    <p>Adım 6: Bağlanmak istediğiniz yerel kablosuz ağa geçmek için Connect to New Network butonunu seçin. Açılan ekranda yalnızca bağlanacağınız ağın SSID (ağ adı) ve şifresini girin ve Connect butonuna basarak işlemi tamamlayın.</p>
+  </div>
+</div>
+
+<p>Tüm işlemler tamamlandıktan sonra robotun şerit ledini kontrol edin. Led 4 kez kırmızı yanıp sönüyorsa bağlanmaya çalışıyordur. İşlemin ardından yeşil ışık yanacaktır.</p>
 
 
 
